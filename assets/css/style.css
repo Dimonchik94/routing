@@ -1,0 +1,92 @@
+body{
+    background: #5886ad;
+}
+
+#logo {
+    width: 50px;
+}
+
+#navbarDropdown{
+    cursor: pointer;
+}
+
+.auth-form{
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+#reg-success{
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#reg-success a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px;
+    background-color: #0098d2;
+    border-radius: 15px;
+}
+
+#reg-success a:hover {
+    color: #0035ff;
+}
+
+/*********************
+
+    Users admin panel
+
+********************/
+
+#admin-nav{
+    background-color: #005ec3 !important;
+    height: 52px;
+    font-size: 18px;
+}
+
+#admin-nav a{
+    color: rgba(0,0,0);
+}
+
+#admin-nav a:hover{
+    color: #ff2fd1;
+}
+
+#users-container{
+    width: 100%;
+    padding: 20px;
+}
+
+#users-container li{
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.ul-header{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    background: #00b79e;
+}
+
+#users{
+    text-decoration: none;
+    color: #1b1e21;
+}
+
+#users ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 8px 0;
+    cursor: pointer;
+}
+
+#users ul:hover {
+    background-color: #17a2b8;
+}
